@@ -10,12 +10,15 @@
 		A22C806E29B72D2E00E2970F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C806D29B72D2E00E2970F /* AppDelegate.swift */; };
 		A22C807029B72D2E00E2970F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C806F29B72D2E00E2970F /* SceneDelegate.swift */; };
 		A22C807229B72D2E00E2970F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C807129B72D2E00E2970F /* ViewController.swift */; };
-		A22C807529B72D2E00E2970F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22C807329B72D2E00E2970F /* Main.storyboard */; };
 		A22C807729B72D2F00E2970F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22C807629B72D2F00E2970F /* Assets.xcassets */; };
 		A22C807A29B72D2F00E2970F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22C807829B72D2F00E2970F /* LaunchScreen.storyboard */; };
 		A22C808529B72D2F00E2970F /* Firebase_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C808429B72D2F00E2970F /* Firebase_SwiftTests.swift */; };
 		A22C808F29B72D2F00E2970F /* Firebase_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C808E29B72D2F00E2970F /* Firebase_SwiftUITests.swift */; };
 		A22C809129B72D2F00E2970F /* Firebase_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C809029B72D2F00E2970F /* Firebase_SwiftUITestsLaunchTests.swift */; };
+		A22C80A029B72FBA00E2970F /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C809F29B72FBA00E2970F /* ForgetPasswordViewController.swift */; };
+		A22C80A329B72FD500E2970F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C80A229B72FD500E2970F /* LoginViewController.swift */; };
+		A22C80A529B72FFF00E2970F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C80A429B72FFE00E2970F /* RegisterViewController.swift */; };
+		A22C80A829B7321C00E2970F /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C80A729B7321C00E2970F /* AuthHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +43,6 @@
 		A22C806D29B72D2E00E2970F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A22C806F29B72D2E00E2970F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A22C807129B72D2E00E2970F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A22C807429B72D2E00E2970F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A22C807629B72D2F00E2970F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A22C807929B72D2F00E2970F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A22C807B29B72D2F00E2970F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		A22C808A29B72D2F00E2970F /* Firebase_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Firebase_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22C808E29B72D2F00E2970F /* Firebase_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_SwiftUITests.swift; sourceTree = "<group>"; };
 		A22C809029B72D2F00E2970F /* Firebase_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A22C809F29B72FBA00E2970F /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		A22C80A229B72FD500E2970F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A22C80A429B72FFE00E2970F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A22C80A729B7321C00E2970F /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,9 @@
 		A22C806C29B72D2E00E2970F /* Firebase_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				A22C806D29B72D2E00E2970F /* AppDelegate.swift */,
-				A22C806F29B72D2E00E2970F /* SceneDelegate.swift */,
-				A22C807129B72D2E00E2970F /* ViewController.swift */,
-				A22C807329B72D2E00E2970F /* Main.storyboard */,
+				A22C80A629B7304800E2970F /* Views */,
+				A22C809E29B72F6A00E2970F /* Controllers */,
+				A22C809D29B72F1B00E2970F /* Supporting */,
 				A22C807629B72D2F00E2970F /* Assets.xcassets */,
 				A22C807829B72D2F00E2970F /* LaunchScreen.storyboard */,
 				A22C807B29B72D2F00E2970F /* Info.plist */,
@@ -125,6 +130,34 @@
 				A22C809029B72D2F00E2970F /* Firebase_SwiftUITestsLaunchTests.swift */,
 			);
 			path = Firebase_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		A22C809D29B72F1B00E2970F /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				A22C806D29B72D2E00E2970F /* AppDelegate.swift */,
+				A22C806F29B72D2E00E2970F /* SceneDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		A22C809E29B72F6A00E2970F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A22C807129B72D2E00E2970F /* ViewController.swift */,
+				A22C80A429B72FFE00E2970F /* RegisterViewController.swift */,
+				A22C809F29B72FBA00E2970F /* ForgetPasswordViewController.swift */,
+				A22C80A229B72FD500E2970F /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A22C80A629B7304800E2970F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A22C80A729B7321C00E2970F /* AuthHeaderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +266,6 @@
 			files = (
 				A22C807A29B72D2F00E2970F /* LaunchScreen.storyboard in Resources */,
 				A22C807729B72D2F00E2970F /* Assets.xcassets in Resources */,
-				A22C807529B72D2E00E2970F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +292,11 @@
 			files = (
 				A22C807229B72D2E00E2970F /* ViewController.swift in Sources */,
 				A22C806E29B72D2E00E2970F /* AppDelegate.swift in Sources */,
+				A22C80A029B72FBA00E2970F /* ForgetPasswordViewController.swift in Sources */,
+				A22C80A529B72FFF00E2970F /* RegisterViewController.swift in Sources */,
+				A22C80A329B72FD500E2970F /* LoginViewController.swift in Sources */,
 				A22C807029B72D2E00E2970F /* SceneDelegate.swift in Sources */,
+				A22C80A829B7321C00E2970F /* AuthHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A22C807329B72D2E00E2970F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A22C807429B72D2E00E2970F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A22C807829B72D2F00E2970F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +469,6 @@
 				INFOPLIST_FILE = Firebase_Swift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +495,6 @@
 				INFOPLIST_FILE = Firebase_Swift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
