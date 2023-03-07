@@ -5,7 +5,6 @@
 //  Created by Dimuth Bandara on 2023-03-07.
 //
 
-// Git commint - CustomTextField added and login field completed
 
 import UIKit
 
@@ -109,15 +108,23 @@ class LoginViewController: UIViewController {
     }
     
     // MARK: - Selectors
-    @objc private func didTapSignIn() {
-        print("DEBUG PRINT:", "didTapSignIn")
-    }
     
-    @objc private func didTapNewUser() {
-        print("DEBUG PRINT:", "didTapNewUser")
-    }
-    
-    @objc private func didTapForgotPassword() {
-        print("DEBUG PRINT:", "didTapForgotPassword")
-    }
+        // button control for Home page
+        @objc private func didTapSignIn() {
+            let vc = ViewController()
+            vc.modalPresentationStyle = .fullScreen
+            self.present(vc, animated: false, completion: nil)
+        }
+        
+        // New User (Sign Up)
+        @objc private func didTapNewUser() {
+            let vc = RegisterViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        
+        // Forget Password
+        @objc private func didTapForgotPassword() {
+            let vc = ForgetPasswordViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
 }
