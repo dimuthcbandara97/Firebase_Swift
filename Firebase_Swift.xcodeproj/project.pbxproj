@@ -20,6 +20,7 @@
 		A22C80A529B72FFF00E2970F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C80A429B72FFE00E2970F /* RegisterViewController.swift */; };
 		A22C80A829B7321C00E2970F /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C80A729B7321C00E2970F /* AuthHeaderView.swift */; };
 		A22C80AA29B7471B00E2970F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C80A929B7471B00E2970F /* CustomTextField.swift */; };
+		A22C80AE29B751CD00E2970F /* CutomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C80AD29B751CD00E2970F /* CutomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		A22C80A429B72FFE00E2970F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		A22C80A729B7321C00E2970F /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
 		A22C80A929B7471B00E2970F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		A22C80AD29B751CD00E2970F /* CutomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			children = (
 				A22C80A729B7321C00E2970F /* AuthHeaderView.swift */,
 				A22C80A929B7471B00E2970F /* CustomTextField.swift */,
+				A22C80AD29B751CD00E2970F /* CutomButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A22C807229B72D2E00E2970F /* ViewController.swift in Sources */,
+				A22C80AE29B751CD00E2970F /* CutomButton.swift in Sources */,
 				A22C806E29B72D2E00E2970F /* AppDelegate.swift in Sources */,
 				A22C80A029B72FBA00E2970F /* ForgetPasswordViewController.swift in Sources */,
 				A22C80A529B72FFF00E2970F /* RegisterViewController.swift in Sources */,
