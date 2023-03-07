@@ -22,6 +22,7 @@
 		A22C80AA29B7471B00E2970F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C80A929B7471B00E2970F /* CustomTextField.swift */; };
 		A22C80AE29B751CD00E2970F /* CutomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C80AD29B751CD00E2970F /* CutomButton.swift */; };
 		A2D75C3829B75ACC00C4BAD4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D75C3729B75ACC00C4BAD4 /* WebViewController.swift */; };
+		A2D75C3B29B77CE400C4BAD4 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D75C3A29B77CE400C4BAD4 /* AlertManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		A22C80A929B7471B00E2970F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		A22C80AD29B751CD00E2970F /* CutomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutomButton.swift; sourceTree = "<group>"; };
 		A2D75C3729B75ACC00C4BAD4 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		A2D75C3A29B77CE400C4BAD4 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		A22C806C29B72D2E00E2970F /* Firebase_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				A2D75C3929B77CC800C4BAD4 /* Mangers */,
 				A22C80A629B7304800E2970F /* Views */,
 				A22C809E29B72F6A00E2970F /* Controllers */,
 				A22C809D29B72F1B00E2970F /* Supporting */,
@@ -167,6 +170,14 @@
 				A22C80AD29B751CD00E2970F /* CutomButton.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A2D75C3929B77CC800C4BAD4 /* Mangers */ = {
+			isa = PBXGroup;
+			children = (
+				A2D75C3A29B77CE400C4BAD4 /* AlertManager.swift */,
+			);
+			path = Mangers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A22C807229B72D2E00E2970F /* ViewController.swift in Sources */,
+				A2D75C3B29B77CE400C4BAD4 /* AlertManager.swift in Sources */,
 				A22C80AE29B751CD00E2970F /* CutomButton.swift in Sources */,
 				A22C806E29B72D2E00E2970F /* AppDelegate.swift in Sources */,
 				A2D75C3829B75ACC00C4BAD4 /* WebViewController.swift in Sources */,

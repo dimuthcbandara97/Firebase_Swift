@@ -36,9 +36,13 @@ class LoginViewController: UIViewController {
         self.forgotPasswordButton.addTarget(self, action: #selector(didTapForgotPassword), for: .touchUpInside)
     }
     
+    // View Will Appear
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.isHidden = true
+        
+        // alert
+//        AlertManager.showInvalidEmailAlert(on: self)
     }
     
     // MARK: - UI Setup
