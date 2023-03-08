@@ -9,6 +9,7 @@ import Foundation
 
 import UIKit
 
+
 class AlertManager {
     
     // Basic Alert
@@ -83,6 +84,8 @@ extension AlertManager {
 // MARK: - Forgot Password
 extension AlertManager {
 
+    
+    
     // Password rest Alert
     public static func showPasswordResetSent(on vc: UIViewController) {
         self.showBasicAlert(on: vc, title: "Password Reset Sent", message: nil)
